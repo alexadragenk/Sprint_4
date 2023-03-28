@@ -7,9 +7,8 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import page_objects.MainPage;
-import page_objects.OrderPage;
+import pageobjects.MainPage;
+import pageobjects.OrderPage;
 
 import static org.hamcrest.CoreMatchers.startsWith;
 
@@ -58,7 +57,7 @@ public class OrderPageTest {
     }
 
     @Test
-    public void pressOrder_fillFields_orderIsMade() {
+    public void pressOrderFillFieldsOrderIsMade() {
         MainPage mainPage = new MainPage(driver, 0);
         mainPage.open();
         mainPage.clickOrderButton(orderButtonNumber);

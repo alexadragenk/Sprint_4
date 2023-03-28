@@ -1,4 +1,4 @@
-package page_objects;
+package pageobjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;

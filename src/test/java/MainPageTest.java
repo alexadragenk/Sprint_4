@@ -7,8 +7,7 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import page_objects.MainPage;
+import pageobjects.MainPage;
 
 @RunWith(Parameterized.class)
 public class MainPageTest {
